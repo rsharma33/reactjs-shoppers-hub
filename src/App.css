@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.checked, .price span {
+    color: #ff9f1a;
+}
+
+.list-group-item.active a{
+  color: #ffffff;
+}
+
+.product-card .img-fluid{
+  height: 250px !important;
+  width: auto !important;
+
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.cardincart {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  margin: 20px;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: blue;
+  font-size: 22px;
+}
+
+.cardincartpricebox {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+  font-family: arial;
+}
+
+.btn.decrement,
+.btn.increment{
+  vertical-align: top;
+  border-radius: 0px;
+}
+
+#lblCartCount {
+    font-size: 10px;
+    background: #ff3333;
+    color: #fff;
+    padding: 0 5px;
+    vertical-align: top;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
